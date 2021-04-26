@@ -8,13 +8,17 @@ import { AppMenuComponent } from './app-menu/app-menu.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ContentComponent } from './content/content.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppMenuComponent,
     CarouselComponent,
-    ContentComponent
+    ContentComponent,
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
